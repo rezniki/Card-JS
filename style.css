@@ -1,0 +1,74 @@
+.my__cars {
+    background: blueviolet;
+    width: 800px;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 0 auto;
+}
+
+.main__character {
+    display: block;
+    margin-bottom: 10px;
+    background: rgb(241, 197, 197);
+    border: none;
+    border-radius: 5px;
+    padding: 8px 5px;
+    width: 30%;
+}
+
+.main__img {
+    width: 100%;
+    border-radius: 50px;
+    margin: 0 auto;
+}
+
+.main__stamp {
+    background: rgb(241, 197, 197);
+    padding: 10px;
+    text-align: center;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    color: rgb(104, 62, 62);
+    border-radius: 30px;
+}
+
+.main__speed {
+    background: rgb(241, 197, 197);
+    padding: 10px;
+    padding-left: 30px;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(104, 62, 62);
+    border-radius: 30px;
+}
+
+.main__release {
+    background: rgb(241, 197, 197);
+    padding: 10px;
+    padding-left: 30px;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(104, 62, 62);
+    border-radius: 30px;
+}
+
+.main__country {
+    background: rgb(241, 197, 197);
+    padding: 10px;
+    padding-left: 30px;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(104, 62, 62);
+    border-radius: 30px;
+}
+
+.main__weight {
+    background: rgb(241, 197, 197);
+    padding: 10px;
+    padding-left: 30px;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(104, 62, 62);
+    border-radius: 30px;
+}
