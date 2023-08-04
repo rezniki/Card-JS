@@ -1,25 +1,48 @@
 .my__cars {
     background: blueviolet;
-    width: 800px;
+    width: 500px;
     padding: 10px;
     border-radius: 10px;
     margin: 0 auto;
 }
 
+.main__title {
+    color: whitesmoke;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-bottom: 30px;
+}
+
 .main__character {
     display: block;
-    margin-bottom: 10px;
-    background: rgb(241, 197, 197);
+    margin-bottom: 20px;
+    background: whitesmoke;
     border: none;
     border-radius: 5px;
     padding: 8px 5px;
-    width: 30%;
+    margin-left: 20px;
+    width: 50%;
+}
+
+.main__button {
+    background: rgb(241, 197, 197);
+    padding: 8px 5px;
+    border: none;
+    border-radius: 5px;
+    margin-left: 20px;
+    margin-top: 30px;
+    width: 90%;
+    cursor: pointer;
+}
+
+.main__data {
+    padding: 20px;
 }
 
 .main__img {
     width: 100%;
     border-radius: 50px;
-    margin: 0 auto;
+    margin-top: 30px;
 }
 
 .main__stamp {
