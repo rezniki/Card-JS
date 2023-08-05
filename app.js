@@ -37,7 +37,7 @@ let myCars = [
 
 let elemMyCars = document.querySelector('.my__cars');
 
-function renderCards() {
+let renderCards = function() {
     const funcMyCars = function(myCar) {
         let elemData = document.createElement('div');
         let elemImg = document.createElement('img');
@@ -74,8 +74,6 @@ function renderCards() {
     myCars.forEach(funcMyCars);
 }
 
-renderCards();
-
 elemButton.onclick = function() {
     let newElemCarStamp = elemCarStamp.value;
     let newElemCarSpeed = elemCarSpeed.value; 
@@ -87,16 +85,16 @@ elemButton.onclick = function() {
     let newMyCar = 
         {
             stamp: newElemCarStamp,
-            speed: parseInt(newElemCarSpeed),
-            release: parseInt(newElemCarRelease),
+            speed: +newElemCarSpeed,
+            release: +newElemCarRelease,
             country: newElemCarCountry,
-            weight: parseInt(newElemCarWeight),
+            weight: +newElemCarWeight,
             image: newElemCarImage
         };
 
     myCars.push(newMyCar);
+    renderCards();
     console.log(myCars);
-
 }
 
 
