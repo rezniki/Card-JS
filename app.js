@@ -73,6 +73,8 @@ let renderCards = function() {
     myCars.forEach(funcMyCars);
 }
 
+renderCards();
+
 elemButton.onclick = function() {
     let newElemCarStamp = elemCarStamp.value;
     let newElemCarSpeed = elemCarSpeed.value; 
