@@ -1,3 +1,4 @@
+let elemMyCars = document.querySelector('.my__cars');
 let elemCarStamp = document.querySelector('.car__stamp');
 let elemCarSpeed = document.querySelector('.car__speed');
 let elemCarRelease = document.querySelector('.car__release');
@@ -34,8 +35,6 @@ let myCars = [
         image: 'https://www.topgear.com/sites/default/files/cars-car/image/2019/01/dg019_004clan2kt8c8qmtrmpcl3p72agsepl.jpg'
     },
 ];
-
-let elemMyCars = document.querySelector('.my__cars');
 
 let renderCards = function() {
     const funcMyCars = function(myCar) {
