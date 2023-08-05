@@ -13,7 +13,7 @@
     padding-bottom: 30px;
 }
 
-.main__character {
+.car__stamp {
     display: block;
     margin-bottom: 20px;
     background: whitesmoke;
@@ -24,8 +24,7 @@
     width: 50%;
 }
 
-.main__character__number {
-    display: block;
+.car__speed {
     margin-bottom: 20px;
     background: whitesmoke;
     border: none;
@@ -35,7 +34,47 @@
     width: 50%;
 }
 
-.main__button {
+.car__release {
+    margin-bottom: 20px;
+    background: whitesmoke;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 5px;
+    margin-left: 20px;
+    width: 50%;
+}
+
+.car__country {
+    margin-bottom: 20px;
+    background: whitesmoke;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 5px;
+    margin-left: 20px;
+    width: 50%;
+}
+
+.car__weight {
+    margin-bottom: 20px;
+    background: whitesmoke;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 5px;
+    margin-left: 20px;
+    width: 50%;
+}
+
+.car__image {
+    margin-bottom: 20px;
+    background: whitesmoke;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 5px;
+    margin-left: 20px;
+    width: 50%;
+}
+
+.car__button {
     background: rgb(241, 197, 197);
     padding: 8px 5px;
     border: none;

@@ -1,3 +1,11 @@
+let elemCarStamp = document.querySelector('.car__stamp');
+let elemCarSpeed = document.querySelector('.car__speed');
+let elemCarRelease = document.querySelector('.car__release');
+let elemCarCountry = document.querySelector('.car__country');
+let elemCarWeight = document.querySelector('.car__weight');
+let elemCarImage = document.querySelector('.car__image');
+let elemButton = document.querySelector('.car__button');
+
 let myCars = [
     {
         stamp: 'Volkswagen Golf 8',
@@ -68,21 +76,22 @@ function renderCards() {
 
 renderCards();
 
-let elemCharacter = document.querySelector('.main__character');
-let elemCharacterNumber = document.querySelector('.main__character__number');
-let elemButton = document.querySelector('.main__button');
-
 elemButton.onclick = function() {
-    let newElemCharacter = elemCharacter.value;
-    let newElemCharacterNumber = elemCharacterNumber.value; 
+    let newElemCarStamp = elemCarStamp.value;
+    let newElemCarSpeed = elemCarSpeed.value; 
+    let newElemCarRelease = elemCarRelease.value;
+    let newElemCarCountry = elemCarCountry.value;
+    let newElemCarWeight = elemCarWeight.value;
+    let newElemCarImage = elemCarImage.value;
+
     let newMyCar = 
         {
-            stamp: newElemCharacter,
-            speed: newElemCharacterNumber,
-            release: newElemCharacterNumber,
-            country: newElemCharacter,
-            weight: newElemCharacterNumber,
-            image: newElemCharacter
+            stamp: newElemCarStamp,
+            speed: parseInt(newElemCarSpeed),
+            release: parseInt(newElemCarRelease),
+            country: newElemCarCountry,
+            weight: parseInt(newElemCarWeight),
+            image: newElemCarImage
         };
 
     myCars.push(newMyCar);
