@@ -94,6 +94,7 @@ elemButton.onclick = function() {
         };
 
     myCars.push(newMyCar);
+    elemMyCars.innerHTML = "";
     renderCards();
     console.log(myCars);
 }
