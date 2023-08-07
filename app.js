@@ -93,7 +93,7 @@ elemButton.onclick = function() {
             image: newElemCarImage
         };
 
-    myCars.push(newMyCar);
+    myCars.push(newMyCar); 
     elemMyCars.innerHTML = "";
     renderCards();
     console.log(myCars);
